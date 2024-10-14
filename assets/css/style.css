@@ -21,6 +21,19 @@ body{
 
 }
 
+
+h1, h2, h3{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color:#252525;
+}
+
+
+ 
+
+
+
 header{
 background-color: #fff;   
 padding: 0 1rem;
@@ -39,17 +52,11 @@ header a{
 
 }
 
-h1{
-    font-family: 'Oswald', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color:#252525;
-}
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    list-style-type: none;
+    list-style-type: none
 }
 
 #menu > li{
@@ -104,6 +111,12 @@ width: 100%;
 background: url("../images/hero-image.webp") no-repeat center center/cover;
 
 }
+
+#cover-text{
+    background-color: rgba(241, 109, 107, .7);
+    font-size: 130%;
+}
+
 /*footer*/
 #social-networks{
     text-align: center;
