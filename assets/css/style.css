@@ -89,13 +89,22 @@ nav{
 
 
 main{
-    background-color: lightblue;
+   
     /*main element to take up surplus space to push footer down*/
     flex: 1 0 auto; /* grow shrink auto*/
     margin-top: 47px;
 
 }
 
+/*hero section*/
+
+#hero{
+height:600px;
+width: 100%;
+background-color: lightgreen;
+
+}
+/*footer*/
 footer{
     background-color: orange;
 }
