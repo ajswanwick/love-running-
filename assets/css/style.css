@@ -1,0 +1,23 @@
+/* *{} = default page styling effects the howle page top of page is most 
+general rules bottom more specific*/
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;  
+}
+
+
+
+header{
+ background-color: lightcoral;   
+}
+
+main{
+    background-color: lightblue;
+}
+
+footer{
+    background-color: orange;
+}
