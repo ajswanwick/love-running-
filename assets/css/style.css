@@ -168,6 +168,28 @@ position: relative;
 
 }
 
+#times{
+    background: url('../images/dublin-city.webp') no-repeat center/cover;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+#times  div{
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding: 15px;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#times h3{
+    color: #fafafa;
+}
+    
+
+
 /*footer*/
 #social-networks{
     text-align: center;
@@ -229,7 +251,7 @@ position: relative;
     #benefits-physical > div,
     #benefits-mental > div{
         width: 75%;
-        align-self: f;
+        
 }
 
 #benefits-mental > div{
