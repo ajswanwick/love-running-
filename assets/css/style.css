@@ -403,4 +403,12 @@ position: relative;
     align-self: flex-end;
 }
 
+#signup-form{
+    max-width 400px;
+    position: absolute;
+    top: 50px;
+    left: 10%;
+
+}
+
 }
