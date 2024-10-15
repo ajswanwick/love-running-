@@ -106,6 +106,8 @@ main{
     /*main element to take up surplus space to push footer down*/
     flex: 1 0 auto; /* grow shrink auto*/
     margin-top: 47px;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -202,6 +204,32 @@ position: relative;
     line-height: 0;
 }
 
+#signup{
+    background: url('../images/signup-image.webp');
+    background-size: cover;
+    background-position: 75%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+     padding: 20px 10%;
+
+}
+
+
+
+#signup-form{
+    color: #ffffff;
+    background-color: rgba(60, 60,60, 0.6);
+    padding: 30px;
+}
+
+#signup h2{
+    color: #fafafa
+}
+
+
+
+
 
 /*footer*/
 #social-networks{
@@ -216,6 +244,9 @@ position: relative;
     font-size: 160%;
     color: #3a3a3a;
 }
+
+
+
 
 @media screen and (min-width:576px) {
     #photos{
@@ -255,6 +286,7 @@ position: relative;
     }
 
     main{
+       
         margin-top: 79px;
     }
 
