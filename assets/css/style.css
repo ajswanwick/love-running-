@@ -161,10 +161,11 @@ position: relative;
     max-height: 300px;
 }
 
-#benifits-image{
+#benefits-image{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 /*footer*/
